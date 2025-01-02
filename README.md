@@ -31,7 +31,7 @@ end)
 -- Breaking the loop from outside
 MyLoop:Break()
 ```
-I'd like to add, that you can also use ``MyLoop:Disconnect()``,which does the same thing as ``MyLoop:Break()``
+I'd like to add, that you can also use ``MyLoop:Disconnect()`` which does the same thing as ``MyLoop:Break()``
 
 ## Properties
 
