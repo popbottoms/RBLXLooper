@@ -1,5 +1,7 @@
 --!strict
 
+-- @popbottoms
+
 export type Looper = {
 	Break: (Loop) -> (),
 	new: ((Loop) -> ()) -> (Loop),
