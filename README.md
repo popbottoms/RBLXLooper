@@ -10,7 +10,7 @@ local Looper = require(path.to.Looper)
 
 local MyLoop = Looper.new(function(self)
     print("Looping")
-    task.wait(1)
+    task.wait(1) -- Make sure to add a wait of some sort, these are still while loops you know!
 end)
 ```
 
